@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>VARIABLE SCOPE</title>
+    </head>
+    <p id="outputText"></p>
+    <body>
+            <script>
+                var someVarible = 100;
+                someFunction();
+                function someFunction(){
+                    document.getElementById("outputText").innerHTML=(someVarible);
+                }
+            </script>
+    </body>
+</html>
