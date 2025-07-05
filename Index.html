@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+        <title>Index</title>
+    </head>
+    <body>
+        <h1 id="heading 1"></h1>
+        <p id="paragraph 1"></p>
+        <p id="paragraph 2"></p>
+        <script>
+            var text1;
+            var text2;
+            var text3;
+
+            var numA = 7;
+            var numB = 10;
+
+            text1 = "Hello everyone on planet Earth";
+            text2 = "I love learning JS";
+            text3 = "JS is awesome!";
+
+            document.getElementById("heading 1").innerHTML = (text1);
+            document.getElementById("paragraph 1").innerHTML = (text2 + text3);
+            document.getElementById("paragraph 2").innerHTML = (numA + "X" + numB + "=" + numA * numB);
+        </script>
+    </body>
+</html>
